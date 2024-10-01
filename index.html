@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voyager</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="assets/logo.jpeg" type="image/jpeg">
+
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="assets/logo2.png" alt="Voyager Logo" class="logo"> Voyager
+    </div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#about-us">About Us</a>
+      <a href="#destinations">Destinations</a>
+      <a href="#tours">Tours</a>
+      <a href="https://karimfadi.netlify.app" target="_blank">Contact Us</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 id="typed-text"></h1>
+      <p>Discover your next adventure !</p>
+    </div>
+  </section>
+
+  <section class="about-us" id="about-us" data-section>
+    <h2>About Us</h2>
+    <hr class="divider">
+    <p>At Voyager, we believe travel is about creating unforgettable experiences. With over a decade in the travel industry, 
+      our mission is to connect adventurers with tailored journeys around the globe. Whether you seek adventure, relaxation, or 
+      cultural exploration, our dedicated team ensures every trip is seamless and memorable.</p>
+    <div class="stats">
+        <div class="stat-item">
+            <div class="stat-number" data-target="150">+ 0</div>
+            <div class="stat-text">Trips Made</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" data-target="12000">+ 0</div>
+            <div class="stat-text">Satisfied Customers</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" data-target="45">+ 0</div>
+            <div class="stat-text">Different Destinations</div>
+        </div>
+    </div>
+  </section>
+
+  <section class="destinations" id="destinations" data-section>
+    <h2>Destinations</h2>
+    <hr class="divider">
+    <p>Explore a world of diverse landscapes and unique experiences. Whether you're looking for a tropical paradise, 
+      a cultural retreat, or an adventurous escape, our curated destinations offer something for every traveler. Start your 
+      journey with us and discover your next unforgettable getaway.</p>
+
+    <div class="destinations-grid">
+      <div class="destination-item">
+        <img src="assets/maldives.jpg" alt="maldives">
+        <div class="destination-info">
+          <h3>Malé</h3>
+          <p>Maldives</p>
+        </div>
+      </div>
+      <div class="destination-item">
+        <img src="assets/thailand.jpg" alt="thailand">
+        <div class="destination-info">
+          <h3>Bangkok</h3>
+          <p>Thailand</p>
+        </div>
+      </div>
+      <div class="destination-item">
+        <img src="assets/nepal.jpg" alt="nepal">
+        <div class="destination-info">
+          <h3>Kathmandu</h3>
+          <p>Nepal</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tours" id="tours" data-section>
+    <h2>Tours</h2>
+    <hr class="divider">
+    <p>Join our exclusive tours and explore countless countries, uncovering hidden gems and iconic landmarks across the globe.</p>
+
+    <div class="tours-grid">
+      <div class="tour-item">
+        <div class="days-label">12 Days</div>
+        <img src="assets/europe-tour.jpg" alt="Tour Image 1">
+        <div class="tour-info">
+          <h3>Europe Tour</h3>
+          <p>Locations: France, Italy, Spain</p>
+          <p>Explore the Eiffel Tower in Paris, the Colosseum in Rome, and the beautiful beaches of Barcelona in one unforgettable European adventure.</p>
+          <p><b>Price: $3000</b></p>
+        </div>
+      </div>
+      <div class="tour-item">
+        <div class="days-label">10 Days</div>
+        <img src="assets/asia-tour.jpg" alt="Tour Image 2">
+        <div class="tour-info">
+          <h3>Asia Tour</h3>
+          <p>Locations: Japan, South Korea, China</p>
+          <p>Discover the temples of Kyoto, the bustling streets of Seoul, and the Great Wall of China on this exciting tour across Asia.</p>
+          <p><b>Price: $2500</b></p>
+        </div>
+      </div>
+      <div class="tour-item">
+        <div class="days-label">5 Days</div>
+        <img src="assets/south-america-tour.jpg" alt="Tour Image 3">
+        <div class="tour-info">
+          <h3>South America Tour</h3>
+          <p>Locations: Brazil, Argentina, Chile</p>
+          <p>Enjoy the carnival in Rio, the tango in Buenos Aires, and the stunning landscapes of Patagonia in this South American exploration.</p>
+          <p><b>Price: $2200</b></p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  
+  <script src="script.js"></script>
+</body>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-left">
+      <p>&copy; 2024 Voyager. All rights reserved.</p>
+    </div>
+    <div class="footer-center">
+      <img src="assets/logo2.png" alt="Voyager Logo" class="footer-logo">
+    </div>
+    <div class="footer-right">
+      <p>Made by <a href="https://karimfadi.netlify.app" target="_blank"><u>Karim Fadi</u></a></p>
+    </div>
+  </div>
+</footer>
+
+</html>
